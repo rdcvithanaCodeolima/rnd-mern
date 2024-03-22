@@ -5,8 +5,8 @@ import Footer from './Components/Footer';
 
 function App() {
 
-  const appName = 'Codeolima'
-  const Version = '1.0.0'
+  const appName = 'Codeolima';
+  const Version = process.env.REACT_APP_VERSION;
 
   return (
       <>
