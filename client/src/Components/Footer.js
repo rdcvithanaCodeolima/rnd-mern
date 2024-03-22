@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Header extends Component {
   render() {
     return (
-      <div>footer</div>
+      <div>Version : {this.props.version}</div>
     )
   }
 }
